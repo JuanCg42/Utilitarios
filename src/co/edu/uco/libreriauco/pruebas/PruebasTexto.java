@@ -13,7 +13,7 @@ public class PruebasTexto {//El modificador de acceso  desde cualquier lado se p
 		System.out.println(miVariable);
 		System.out.println(getUtilTexto().obtenerLongitudCadena(miVariable, false));
 		System.out.println(getUtilTexto().obtenerLongitudCadena(miVariable, true));
-
+		
 	
 	}
 

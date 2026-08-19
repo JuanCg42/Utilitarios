@@ -55,6 +55,16 @@ public class UtilTexto {
 				? obtenerLongitudCadena(quitarEspacioEnBlanco(valor))
 						:obtenerLongitudCadena(valor);
 	}
+	
+	public boolean longitudCadenaEsValida(String valor,int longitudInicial, int longitudFinal,
+		boolean quitarEspacioEnBlanco){
+			var valorSanitizado = quitarEspacioEnBlanco ? quitarEspacioEnBlanco(valor): valor;
+			
+			return obtenerLongitudCadena(valorSanitizado) >= longitudInicial
+					&& obtenerLongitudCadena(valorSanitizado) <=longitudFinal;
+	}
+ 
+
 
 	
 	
