@@ -24,7 +24,7 @@ public class UtilTexto {
 		
 	
 	}
-	public boolean esNua(String cadena) {
+	public boolean esNulo(String cadena) {
 		return UtilObjeto.esNulo(cadena);
 	}
 	
