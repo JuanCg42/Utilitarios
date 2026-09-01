@@ -11,7 +11,7 @@ public class PruebaBuilder {
 		PaisDominio dominioPaisConId= new PaisDominio.Builder().id(UtilUUID.generar()).build();
 		PaisDominio dominioPaisconNombre= new PaisDominio.Builder().nombre("C").build();
 		PaisDominio dominioPaisCompleto = new PaisDominio.Builder().nombre("C").id(UtilUUID.generar()).build();
-		
+		System.out.println("Hola");
 		
 
 	}
